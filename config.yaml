@@ -45,8 +45,8 @@ spec:
         image: bernnardosbo/backend
         resources:
           limits:
-            memory: "1000Mi"
-            cpu: "1500m"
+            memory: "500Mi"
+            cpu: "1000m"
         ports:
         - containerPort: 30530
   replicas: 1
@@ -87,6 +87,6 @@ spec:
         - containerPort: 80
         resources:
           limits:
-            memory: "1000Mi"
-            cpu: "1500m"
+            memory: "500Mi"
+            cpu: "1000m"
 
